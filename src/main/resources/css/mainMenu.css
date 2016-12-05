@@ -1,0 +1,27 @@
+.ventanaPrincipal{
+    -fx-background-color: whitesmoke;
+}
+.ventanaCentral{
+    -fx-background-color: white;
+}
+.panelBotones{
+    -fx-padding: 5%;
+    -fx-background-color: rgba(255, 187, 51, 1.44);
+}
+.boton{
+    -fx-background-color: rgba(100, 86, 163, 1.17);
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 15%;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.tituloDetalleDeCuenta{
+    -fx-font-size: 50px;
+}
+.botonLogin{
+    -fx-background-color: rgba(100, 86, 163, 1.17);
+    -fx-text-fill: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.ventanaLogin{
+    -fx-background-color: white;
+}

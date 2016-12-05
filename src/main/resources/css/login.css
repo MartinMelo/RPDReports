@@ -1,0 +1,9 @@
+.botonAceptar{
+    -fx-text-align: center;
+    -fx-background-color: #6f5499;
+}
+.texfieldsLogin{
+    -fx-width: 250px;
+    -fx-height: 250px;
+    -fx-padding: 10%;
+}

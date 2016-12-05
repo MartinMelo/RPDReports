@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane minHeight="-Infinity" minWidth="-Infinity" prefHeight="1024.0" prefWidth="1280.0" styleClass="ventanaPrincipal" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controllers.MainMenuController">
+   <children>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1024.0" prefWidth="256.0">
+         <children>
+            <VBox prefHeight="1080.0" prefWidth="260.0" styleClass="panelBotones">
+               <children>
+                  <ImageView fx:id="userImage" fitHeight="200.0" fitWidth="245.0" pickOnBounds="true">
+                     <VBox.margin>
+                        <Insets left="5.0" right="5.0" top="10.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Label fx:id="userName" alignment="CENTER" prefHeight="17.0" prefWidth="245.0" text="Label">
+                     <VBox.margin>
+                        <Insets left="5.0" top="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="detalleDeCuentaButton" alignment="CENTER" mnemonicParsing="false" prefHeight="50.0" prefWidth="220.0" styleClass="boton" text="Detalle de cuenta" textAlignment="CENTER">
+                     <VBox.margin>
+                        <Insets left="20.0" top="25.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="canjesButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="220.0" styleClass="boton" text="Canje" textAlignment="CENTER">
+                     <VBox.margin>
+                        <Insets left="20.0" top="25.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="ticketsButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="220.0" styleClass="boton" text="Imprimir tickets" textAlignment="CENTER">
+                     <VBox.margin>
+                        <Insets left="20.0" top="25.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="cambiarClaveButton" alignment="CENTER" mnemonicParsing="false" prefHeight="50.0" prefWidth="220.0" styleClass="boton" text="Cambio de clave" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="20.0" top="25.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+    <AnchorPane fx:id="ventanaCentral" layoutX="262.0" minHeight="0.0" minWidth="0.0" prefHeight="1024.0" prefWidth="1024.0" styleClass="ventanaCentral">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding></AnchorPane>
+   </children>
+</Pane>
